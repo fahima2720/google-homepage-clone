@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-links {
+  text-align: right;
+  padding: 15px 25px;
+}
+
+.top-links a {
+  color: black;
+  margin-right: 15px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sign-in {
+  background-color: #1a73e8;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 14px;
+  border: none;
+}
+
+.sign-in:hover {
+  background-color: #1765cb;
+}
+
+.main-container {
+  margin-top: 120px;
+}
+
+.logo {
+  width: 272px;
+  height: auto;
+}
+
+.search-area {
+  margin: 25px auto;
+  width: 580px;
+  position: relative;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: none;
+  transition: box-shadow 0.2s;
+}
+
+.search-area:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: #dfe1e5;
+}
+
+.search {
+  position: absolute;
+  left: 15px;
+  width: 18px;
+  opacity: 0.6;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.mic-area {
+  position: absolute;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mic, .camera {
+  width: 22px;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 5px;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buttons button:hover {
+  border: 1px solid #dcdcdc;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #70757a;
+  font-size: 14px;
+  padding: 12px 20px;
+  text-align: left;
+}
